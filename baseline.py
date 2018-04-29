@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 # Roc-J
 
-# -*- coding: utf-8 -*-
-# Roc-J
-
 import jieba
 import pandas as pd
 from gensim import corpora, models, similarities
