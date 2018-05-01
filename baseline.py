@@ -22,7 +22,7 @@ def train_text():
 
     # 测试文档进行分词
     test_doc = []
-    test_datas = pd.read_csv("test_data.csv")
+    test_datas = pd.read_csv("test_data.csv", encoding="gbk")
     test_titles = test_datas["title"]
     for title in test_titles:
         test_doc.append(title)
